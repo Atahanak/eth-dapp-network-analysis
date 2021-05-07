@@ -59,7 +59,7 @@ print(df.head())
 # In[6]:
 
 
-#df.drop('value',axis='columns', inplace=True) #for erc20Transactions
+df.drop('value',axis='columns', inplace=True) #for erc20Transactions
 #df.drop('tokenId',axis='columns', inplace=True) #for erc721Transactions
 print(df.dtypes)
 
